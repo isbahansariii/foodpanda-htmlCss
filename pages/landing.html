@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../styles.css" />
+
+  <title>Foodpanda | Landing Page</title>
+</head>
+
+<body>
+
+  <!-- Nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-css">
+    <div class="container-fluid navbar-css-main">
+
+      <!-- logo -->
+      <a class="navbar-brand navbar-logo-css" href="#">
+        <img src="../images/fp-logo.jpg" />foodpanda
+      </a>
+
+      <!-- Space -->
+      <div class="nav-item navbar-space-css"></div>
+
+      <!-- other components of navbar -->
+      <div class="btn-css" id="navbarSupportedContent">
+
+        <!-- dropdown Profile-->
+        <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle btn-dropdown-css drop-profile" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-regular fa-user pointer"></i>
+              <p class="mt-3">Profile</p>
+            </a>
+            <ul class="dropdown-menu pointer" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="../index.html">Log Out</a></li>
+            </ul>
+          </div>
+
+        <!-- dropdown -->
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle btn-dropdown-css" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-globe"></i> EN
+          </a>
+          <ul class="dropdown-menu pointer" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">English</a></li>
+          </ul>
+        </div>
+
+        <!-- Bag Cart -->
+        <div class="nav-item bag-cart-css">
+          <i class="fa-solid fa-suitcase-rolling"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+
+    <!-- Box-1 -->
+    <div class="hero-box1">
+      <p>It's the food and groceries you love, delivered</p>
+
+      <!-- Extra white space -->
+      <div class="hero-box-1-around">
+
+        <!-- search div -->
+        <div class="hero-box-1-search">
+          <input type="text" placeholder="Enter your full address" />
+          <i class="fa-solid fa-location-crosshairs pointer hover"></i>
+        </div>
+
+        <!-- Search button (Like as, signup button) -->
+        <button class="nav-item btn-signup-css search" type="submit" style="color: white;">Find Food</button>
+
+      </div>
+    </div>
+
+    <!-- Box-2 | Hero Image -->
+    <div class="hero-box2-img"></div>
+
+  </div>
+
+  <!-- Hero Section-2 -->
+  <div class="hero-2">
+
+    <!-- full size -->
+    <div class="d-grid gap-2 hero-box-1-buttons">
+
+      <!-- search div -->
+      <div class="hero-box-1-search hero-2-search">
+        <input type="text" placeholder="Enter your full address" />
+        <i class="fa-solid fa-location-crosshairs pointer hover"></i>
+      </div>
+
+      <!-- full size button  -->
+      <button class="btn btn-primary" type="button">Find Food</button>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <p>You prepare the food, we handle the rest</p>
+    <div class="content-img"></div>
+
+    <div class="content-message">
+      <div class="content-message-box1">
+        <h4>List your restaurant or shop on foodpanda</h4>
+        <p>Would you like millions of new customers to enjoy your amazing food and groceries? So would we!
+        </p>
+        <p>It's simple: we list your menu and product lists online, help you process orders, pick them up, and deliver
+          them to hungry pandas – in a heartbeat!</p>
+        <p>Interested? Let's start our partnership today!</p>
+        <!-- get started button -->
+        <button class="btn-message pointer" type="submit">Get Started</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Location -->
+  <p class="location">Find us in these cities and many more!</p>
+  <!-- city -->
+  <div class="city">
+
+    <div class="city-main">
+      <div class="city-img1 pointer">
+        <div class="city-p">Islamabad</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img2 pointer">
+        <div class="city-p">Karachi</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img3 pointer">
+        <div class="city-p">Lahore</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img4 pointer">
+        <div class="city-p">Faislabad</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img5 pointer">
+        <div class="city-p">Rawalpindi</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img6 pointer">
+        <div class="city-p">Abottabad</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img7 pointer">
+        <div class="city-p">Bahawalpur</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img8 pointer">
+        <div class="city-p">Dera Gazi Khan</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img9 pointer">
+        <div class="city-p">Gujranwala</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img10 pointer">
+        <div class="city-p">Gujrat</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img11 pointer">
+        <div class="city-p">Hyderabad</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img12 pointer">
+        <div class="city-p">Jehlum</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img13 pointer">
+        <div class="city-p">Kamoke</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img14 pointer">
+        <div class="city-p">Larkana</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img15 pointer">
+        <div class="city-p">Mangla</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img16 pointer">
+        <div class="city-p">Mardan</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img17 pointer">
+        <div class="city-p">Multan</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img18 pointer">
+        <div class="city-p">Murree</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img19 pointer">
+        <div class="city-p">Okara</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img20 pointer">
+        <div class="city-p">Pano Aqil</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img21 pointer">
+        <div class="city-p">Peshawar</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img22 pointer">
+        <div class="city-p">Quetta</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img23 pointer">
+        <div class="city-p">Rahim Yar Khan</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img24 pointer">
+        <div class="city-p">Sadiqabad</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img25 pointer">
+        <div class="city-p">Sahiwala</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img26 pointer">
+        <div class="city-p">Sargodha</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img27 pointer">
+        <div class="city-p">Sheikhupura</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img28 pointer">
+        <div class="city-p">Sialkot</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img29 pointer">
+        <div class="city-p">Sukkar</div>
+      </div>
+    </div>
+
+    <div class="city-main">
+      <div class="city-img30 pointer">
+        <div class="city-p">Wahh Cannt</div>
+      </div>
+    </div>
+
+    <div class="city-main-21">
+      <div class="city-img31">
+
+      </div>
+    </div>
+
+    <div class="city-main-21">
+      <div class="city-img32">
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- App Invitation -->
+  <div class="app-content">
+
+    <h3>Put us in your pocket</h3>
+
+    <div class="app-content-main">
+
+      <!-- Box-1 -->
+      <div class="app-box1">
+        <h4>Download the food and groceries you love</h4>
+        <div class="app-download">
+
+          <div class="app-qrcode">
+            <div class="app-qrcode-img-main">
+              <div class="app-qrcode-img"></div>
+            </div>
+          </div>
+
+          <p>It's all at your fingertips – the restaurants and shops you love. Find the right food and groceries to suit
+            your mood, and make the first bite last. Go ahead, download us.</p>
+
+        </div>
+
+        <!-- buttons -->
+        <div class="app-download-btn">
+          <button class="Apple">
+            <!-- icon -->
+            <i class="fa-brands fa-apple"></i>
+            <!-- text -->
+            <p>Download on the <span>App Store</span></p>
+          </button>
+          <button class="Google-play">
+            <!-- icon -->
+            <i class="fa-brands fa-google-play"></i>
+            <!-- text -->
+            <p>Get it on <span>Google Play</span></p>
+          </button>
+          <button class="App-Gallery">
+            <!-- icon -->
+            <img src="./images/appGallery.png" alt="">
+            <!-- text -->
+            <p>Explore it on <span>App Gallery</span></p>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Box-2 -->
+      <div class="app-box2">
+        <img src="../images/app-content.webp" alt="app">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Content-2 -->
+  <div class="content content-2">
+    <p>You prepare the food, we handle the rest</p>
+    <div class="content-img content-img-2"></div>
+
+    <div class="content-message content-message-2">
+      <div class="content-message-box1 content-message-box1-2">
+        <h4>foodpanda for business</h4>
+        <p>Order lunch or fuel for work-from-home, late nights in the office, corporate events, client meetings, and
+          much more.</p>
+        <!-- get started button -->
+        <button class="btn-message pointer" type="submit">Get Started</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Ending div-->
+  <div class="end-div">
+    <h2>Order food and groceries online from the best restaurants and shops on foodpanda</h2>
+    <p>Are you hungry? Did you have a long and stressful day? Interested in getting a cheesy pizza delivered to your
+      office or looking to avoid the weekly shop? Then foodpanda Pakistan is the right destination for you! foodpanda
+      offers you a long and detailed list of the best restaurants and shops near you to help make your every day easier.
+    </p>
+    <h2>What's new?</h2>
+    <ul class="check">
+      <li>Wide variety of restaurants and shops, an abundance of cuisines & products.</li>
+      <li>High quality delivery service.</li>
+      <li>Live chat feature to give App users instant help when they need it.</li>
+      <li>NEW: foodpanda grocery delivery! Discover the best shops, pharmacies, bakeries and more near you.</li>
+      <hr>
+    </ul>
+    <h3>Frequently Asked Questions</h3>
+    <h5>How can I get foodpanda delivery?</h5>
+    <p>To get foodpanda delivery, simply locate the restaurants and shops near you by typing in your address, browse
+      through a variety of restaurants and cuisines, check menus and prices, choose your dishes and add them to the
+      basket. Now you only need to checkout and make the payment. Soon your delicious food will arrive at your doorstep!
+    </p>
+
+    <h5>Which takeout restaurants open now near me?</h5>
+    <p>You can check which takeout restaurants are open now near you by simply typing your address in the location bar
+      on foodpanda and pressing search. You will see all the available restaurants and shops that deliver to your area.
+    </p>
+
+    <h5>Does foodpanda deliver 24 hours?</h5>
+    <p>Yes, foodpanda in Pakistan delivers 24 hours. However, many restaurants may be unavailable for a late-night
+      delivery. Please check which places in Pakistan deliver to you within 24 hours by using your address. You can also
+      order groceries 24 hours a day via pandamart.</p>
+
+    <h5>Can you pay cash for foodpanda?</h5>
+    <p>Yes, you can pay cash on delivery for foodpanda in Pakistan.</p>
+
+    <h5>How can I pay foodpanda online?</h5>
+    <p>You can pay online while ordering at foodpanda Pakistan by using a credit or debit card or PayPal.</p>
+
+    <h5>Can I order foodpanda for someone else?</h5>
+    <p>Yes, foodpanda Pakistan allows you to place an order for someone else. During checkout, just update the name and
+      delivery address of the person you're ordering for. Please keep in mind that if the delivery details are not
+      correct and the order cannot be delivered, we won't be able to process a refund.</p>
+
+    <h5>How much does foodpanda charge for delivery?</h5>
+    <p>Delivery fee charged by foodpanda in Pakistan depends on many operational factors, most of all - location and the
+      restaurant you are ordering from. You can always check the delivery fee while forming your order. Besides, you can
+      filter the restaurants by clicking on the "Free Delivery" icon at the top of your restaurant listing.</p>
+
+    <h5>What restaurants let you order online?</h5>
+    <p>There are hundreds of restaurants on foodpanda Pakistan that let you order online. For example, KFC, McDonald's,
+      Pizza Hut, OPTP, Hardee's, Domino's, Kababjees and many-many more! In order to check all the restaurants near you
+      that deliver, just type in your address and discover all the available places.</p>
+
+    <h5>Does foodpanda have minimum order?</h5>
+    <p>Yes, many restaurants have a minimum order. The minimum order value depends on the restaurant you order from and
+      is indicated during your ordering process.</p>
+
+    <h5>What is the difference between delivery and Pick-Up?</h5>
+    <p>If you choose delivery, a foodpanda rider will collect your order from the restaurant and take it to your chosen
+      delivery address. If you choose Pick-Up, you can takeaway your food directly from the restaurant for extra savings
+      – and to jump to the front of the queue. Pick-Up orders are available for restaurants only.</p>
+
+    <h6>Order food and groceries online with foodpanda now and enjoy a great dining experience!</h6>
+
+    <p class="br"></p>
+
+    <hr>
+  </div>
+
+  <div class="end-logo">
+    <div class="logo">
+      <div class="img-logo"><img src="../images/icons8-panda-48.png" /></div>
+      <p>foodpanda</p>
+    </div>
+
+    <div class="space-logo"></div>
+
+    <div class="logo-2">
+      <div class="fb pink pointer"><i class="fa-brands fa-facebook-f"></i></div>
+      <div class="insta pink pointer"><i class="fa-brands fa-instagram"></i></div>
+    </div>
+    
+  </div>
+  <hr>
+  <div class="footer">
+    
+
+    <p>© 2023 foodpanda</p>
+
+    <ul>
+      <li class="pink pointer">Press Help Center</li>
+      <li class="pink pointer">Refunds with pandapay</li>
+      <li class="pink pointer">Pandapay User Account Terms and Conditions</li>
+      <li class="pink pointer">Terms and conditions Privacy policy</li>
+      <li class="pink pointer">Security Download foodpanda Apps</li>   
+    </ul>
+
+    <ul>
+      <li class="pink pointer">Careers Suggest a restaurant</li>
+      <li class="pink pointer">Corporate Customer</li>
+      <li class="pink pointer">Cashback Terms and Conditions</li>
+      <li class="pink pointer">All cuisines foodpanda Magazine</li>
+      <li class="pink pointer">Partner with us</li>
+      <li class="pink pointer">pandago - Request a rider</li>
+      <li class="pink pointer">foodpanda Vouchers&Promo</li> 
+    </ul>
+
+    <ul>
+      <li class="pink pointer">All cities Update on COVID-19 in Pakistan</li>
+      <li class="pink pointer">pandamart Grocery Delivery</li>
+      <li class="pink pointer">pandapro - monthly subscription</li>
+      <li class="pink pointer">programme</li>
+      <li class="pink pointer">foodpanda home chef</li>
+      <li class="pink pointer">Become an affiliate Ramzan deals</li>  
+    </ul>
+    <hr>
+  </div>
+  <div class="foot-country">
+    <p>Laos</p>
+    <p>Cambodia</p>
+    <p>Myanmar</p>
+    <p>Thailand</p>
+    <p>Hong Kong</p>
+    <p>Taiwan</p>
+    <p>Malaysia</p>
+    <p>Philippines</p>
+    <p>Singapore</p>
+    <p>Bangladesh</p>
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+</body>
+
+</html>

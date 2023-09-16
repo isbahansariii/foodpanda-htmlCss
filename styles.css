@@ -1,0 +1,1839 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: loading 0.75s ease-in-out;
+}
+
+/* loading */
+@keyframes loading {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+/* Pink */
+.pink {
+    color: #333333;
+}
+
+.pink:hover {
+    color: #e21b70;
+    border-color: #e21b70;
+}
+
+/* pointer */
+.pointer {
+    cursor: pointer;
+}
+
+/* hover | active */
+.hover:hover,
+.hover:active {
+    background-color: #faeaf2;
+    border-radius: 50%;
+}
+
+/* navbar */
+.navbar-css {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    color: #e21b70;
+    box-shadow: 0 0 5px 0 #2e2121;
+    height: 10%;
+}
+
+/* main div of nav css */
+.navbar-css-main {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 5rem;
+}
+
+/* Signup/login logo */
+.navbar-signup-icon-css>a {
+    /* Initially hidden */
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: #e21b70;
+    display: none;
+}
+
+.navbar-signup-icon-css>a:hover,
+.navbar-signup-icon-css>a:active {
+    background-color: #faeaf2;
+}
+
+/* logo */
+.navbar-logo-css {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90%;
+}
+
+/* logo text */
+.navbar-css>div>a {
+    color: #e21b70;
+    font-weight: bold;
+}
+
+/* Logo image */
+.navbar-css>div>a>img {
+    height: 3rem;
+    width: 4rem;
+}
+
+/* Space */
+.navbar-space-css {
+    width: 40%;
+}
+
+/* Main div of login and signup button */
+.btn-css {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* log in button */
+.btn-login-css {
+    border: 1px solid #e21b70;
+    border-right-color: #e21b70;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.btn-login-css>a {
+    color: #e21b70;
+    text-decoration: none;
+}
+
+.btn-login-css:hover {
+    background-color: #faeaf2;
+    color: #e21b70;
+    transition: ease-in-out;
+    transform: scale(1.1);
+    font-size: 0.95rem;
+}
+
+/* sign up button */
+.btn-signup-css {
+    background-color: #e21b70;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.btn-signup-css>a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-signup-css:hover {
+    transition: ease-in-out;
+    transform: scale(1.1);
+    font-size: 0.95rem;
+    color: #ffffff;
+    background-color: #ac084f;
+}
+
+/* dropdown button */
+.btn-dropdown-css {
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.btn-dropdown-css:hover,
+.btn-dropdown-css:active {
+    background-color: #faeaf2;
+    color: #000000;
+}
+
+.btn-dropdown-css>i {
+    margin-right: 10px;
+}
+
+/* Bag Cart */
+.bag-cart-css>i {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.bag-cart-css>i:hover,
+.bag-cart-css>i:active {
+    background-color: #faeaf2;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+}
+
+/* Box-1 */
+.hero-box1 {
+    height: 500px;
+    width: 100%;
+    background-color: #edecea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-box1>p {
+    justify-content: flex-start;
+    font-size: 2.2rem;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.hero-box-1-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 90%;
+    height: 4.7rem;
+    border-radius: 10px;
+}
+
+.hero-box-1-search {
+    border: 1px solid #9e9d9d;
+    border-radius: 10px;
+    height: 60%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.hero-box-1-search>input {
+    border: none;
+    width: 90%;
+    padding-left: 10px;
+}
+
+.hero-box-1-search>i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    color: #e21b70;
+    font-size: 1.2rem;
+}
+
+.btn-signup-css.search {
+    height: 60%;
+    width: 80px;
+    text-align: center;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Box-2 | Hero Image */
+.hero-box2-img {
+    background-image: url("./images/refresh-hero-home-pk.webp");
+    background-size: cover;
+    height: 500px;
+    width: 900px;
+    background-color: #edecea;
+}
+
+/* Hero Section-2 */
+
+/* full size */
+.hero-box-1-search.hero-2-search {
+    margin: 0 2.5% 0 2.5%;
+    width: 95%;
+    height: 2.7rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    display: none;
+}
+
+/* Full size button */
+.hero-box-1-buttons>.btn {
+    margin: 0 2.5% 0 2.5%;
+    width: 95%;
+    height: 2.7rem;
+    font-size: 0.9rem !important;
+    display: none;
+    background-color: #e21b70;
+    border: none;
+}
+
+.hero-box-1-buttons>.btn:hover {
+    background-color: #ac084f;
+    transform: scaleY(1.1);
+}
+
+/* Content */
+.content {
+    width: 100%;
+    height: 100vh;
+    background-color: #feffff;
+}
+
+.content>p {
+    font-weight: 100;
+    font-size: 1.8rem;
+    padding: 5% 0 0.5% 5%;
+}
+
+.content>.content-img {
+    background-image: url("./images/content-img.webp");
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+    position: relative;
+}
+
+.content-message {
+    box-shadow: 1px 1px 10px grey;
+    width: 40%;
+    height: 22rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    bottom: 15rem;
+    left: 5%;
+}
+
+.content-message-box1 {
+    /* background-color: #fff; */
+    padding: 2% 3% 0 3%;
+    width: 95%;
+    height: 95%;
+}
+
+.content-message-box1>p {
+    padding-top: 2%;
+}
+
+.btn-message {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e21b70;
+    color: white;
+}
+
+.btn-message:hover {
+    background-color: #ac084f;
+    transform: scaleY(1.1);
+}
+
+/* Location */
+.location {
+    margin-top: 10%;
+    padding: 0 5%;
+    font-size: 1.8rem;
+}
+
+.city {
+    padding: 1% 5%;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.city-main {
+    margin-bottom: 2%;
+    margin-right: 1%;
+    width: 270px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.city-img1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/1-Islamabad.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img1:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/2-Karachi.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img2:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/3-Lahore.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img3:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/4-Faisalabad.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img4:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img5 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/5-Rawalpindi.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img5:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img6 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/6-Abottabad.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img6:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img7 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/7-Bahawalpur.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img7:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img8 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/8-DeraGhaziKhan.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img8:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img9 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/9-Gujranwala.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img9:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img10 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/10-Gujrat.jpg.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img10:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img11 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/11-Hyderabad.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img11:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img12 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/12-Jhelum.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img12:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img13 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/13-Kamoke.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img13:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img14 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/14-Larkana.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img14:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img15 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/15-Mangla.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img15:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img16 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/16-Mardan.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img16:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img17 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/17-Multan.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img17:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img18 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/18-Murree.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img18:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img19 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/19-Okara.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img19:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img20 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/20-PanoAqil.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img20:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img21 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/21-Peshawar.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img21:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img22 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/22-Quetta.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img22:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img23 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/23--RahimYarKhan.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img23:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img24 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/24-Sadiqabad.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img24:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img25 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/25-Sahiwal.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img25:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img26 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/26-Sargodha.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img26:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img27 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/27-Sheikhupura.jpg.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img27:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img28 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/28-Sialkot.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img28:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img29 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/29-Sukkur.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img29:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-img30 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url("./images/30-WahhCannt.webp");
+    background-size: cover;
+    width: 270px;
+    height: 240px;
+}
+
+.city-img30:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.city-p {
+    margin-left: 7%;
+    margin-bottom: 5%;
+    padding: 3% 2% 3% 2%;
+    text-align: center;
+    font-size: 1.2rem;
+    height: 40px;
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.city-main-21 {
+    margin-bottom: 2%;
+    margin-right: 1%;
+    width: 270px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/* App Invitation */
+.app-content {
+    padding: 0 5%;
+    height: 100%;
+}
+
+.app-content>h3 {
+    padding: 2% 0;
+}
+
+.app-content-main {
+    display: flex;
+    width: 100%;
+    background-color: #e21b70;
+    border-radius: 20px;
+}
+
+/* Box1 | QR code + paragraph | Start*/
+.app-box1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.app-box1>h4 {
+    padding: 3rem 2rem;
+    color: #ffffff;
+}
+
+.app-download {
+    display: flex;
+    width: 100%;
+}
+
+.app-qrcode {
+    padding: 0 2rem;
+    background-color: #e21b70;
+    /* width: 100%; */
+    height: 100px;
+}
+
+.app-qrcode-img-main {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 5px;
+}
+
+.app-qrcode-img {
+    background-image: url("./images/qrcode.png");
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+
+.app-download>p {
+    color: white;
+    font-size: 1rem;
+}
+
+/* Box1 | QR code + paragraph | End*/
+
+/* Box1 | Buttons */
+.app-download-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 90px;
+    width: 90%;
+}
+
+/* Box1 | Buttons */
+.app-download-btn>button {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 40px;
+    background-color: #000000;
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+
+/* Apple */
+.Apple {
+    width: 130px;
+}
+
+.Apple>i {
+    padding-top: 2.5%;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.Apple>p {
+    font-size: 0.6rem;
+    color: #e0e0e0;
+}
+
+.Apple>p>span {
+    display: inline-block;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Google Play */
+.Google-play {
+    width: 150px;
+}
+
+.Google-play>i {
+    padding-top: 2.5%;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.Google-play>p {
+    font-size: 0.6rem;
+    color: #e0e0e0;
+}
+
+.Google-play>p>span {
+    display: inline-block;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* App Gallery */
+.App-Gallery {
+    width: 150px;
+}
+
+.App-Gallery>img {
+    padding-top: 2.5%;
+    width: 2.5rem;
+    height: 2rem;
+    color: #ffffff;
+}
+
+.App-Gallery>p {
+    font-size: 0.6rem;
+    color: #e0e0e0;
+}
+
+.App-Gallery>p>span {
+    display: inline-block;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Box-2 */
+.app-box2 {
+    width: 50%;
+}
+
+.app-box2>img {
+    height: 400px;
+}
+
+/* Content 2 */
+.content-img.content-img-2 {
+    background-image: url("./images/content-2.webp");
+    background-size: cover;
+}
+
+.content-message-2 {
+    bottom: 17%;
+    height: fit-content;
+}
+
+.content-message-box1-2 {
+    padding: 5%;
+}
+
+/* End Div */
+.end-div {
+    margin-top: 10%;
+    padding: 0 7%;
+    color: #333333;
+}
+
+.end-div>h2 {
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+.end-div>h3,
+.end-div>h5,
+.end-div>h6 {
+    font-weight: bold;
+}
+
+.end-div>.br {
+    height: 5rem;
+}
+
+.check {
+    list-style-type: circle;
+}
+
+/* End div 2 */
+.end-logo {
+    padding: 0 7%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo>p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    opacity: 0.5;
+    color: grey;
+    padding-top: 15px;
+}
+
+.img-logo {
+    background-color: #d4d4d4;
+    opacity: 0.5;
+    display: inline-block;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.img-logo>img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Space */
+.space-logo {
+    width: 70%;
+}
+
+.logo-2 {
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fb,
+.insta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0.5px solid gray;
+    color: grey;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: 1009x;
+    padding: 0 7%;
+    height: 100%;
+}
+
+.footer>ul>li {
+    list-style-type: none;
+}
+
+.foot-country {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 7%;
+    width: 100%;
+    color: #333333;
+}
+
+.foot-country>p {
+    border-right: 0.5px solid #333333;
+    text-align: center;
+    padding-right: 2%;
+}
+
+/* LOGIN / SIGNUP PAGE */
+.form-pg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.form-pg>fieldset {
+    width: 100%;
+    max-width: 380px;
+    padding: 32px;
+    border-radius: 20px;
+    background-color: pink;
+    box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+    background-color: white;
+}
+
+.form-pg>fieldset>h3 {
+    font-weight: bold;
+}
+
+.form-pg>fieldset>div>button {
+    margin-bottom: 1%;
+}
+
+/* Fb */
+.fb-form {
+    height: 40px;
+    background-color: #1877F2;
+    color: white;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-pg>fieldset>div>.fb-form>i {
+    padding-top: 0.5%;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.form-pg>fieldset>div>.fb-form:hover {
+    color: white;
+    opacity: 0.7;
+}
+
+/* Apple */
+.form-pg>fieldset>div>.apple-form {
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-pg>fieldset>div>.apple-form>i {
+    padding-top: 0.5%;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.form-pg>fieldset>div>.apple-form:hover {
+    opacity: 0.7;
+}
+
+/* Google */
+.form-pg>fieldset>div>.form-google {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    color: black;
+    border: 0.5px solid #333333;
+    font-size: 0.9rem;
+}
+
+.form-pg>fieldset>div>.form-google>img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.form-pg>fieldset>div>.form-google>p {
+    padding-top: 2%;
+}
+
+.form-pg>fieldset>div>.form-google:hover {
+    background-color: #faeaf2;
+}
+
+/* Login */
+.form-pg>fieldset>div>a>.form-login {
+    width: 100%;
+    background-color: #e21b70;
+    color: white;
+}
+
+.form-pg>fieldset>div>a>.form-login:hover {
+    transform: scaleY(1.08);
+    background-color: #ac084f;
+}
+
+/* Signup */
+.form-pg>fieldset>div>a>.form-signup {
+    width: 100%;
+    border: 1px solid #e21b70;
+    color: #e21b70;
+}
+
+.form-pg>fieldset>div>a>.form-signup:hover {
+    transform: scaleY(1.08);
+    background-color: #faeaf2;
+}
+
+/* end para in form */
+.form-pg>fieldset>p {
+    font-size: 0.85rem;
+    margin-top: 1%;
+}
+
+/* Get Email Page */
+.gmail-logo {
+    font-size: 3rem;
+    padding-bottom: 3%;
+    color: #eb5998;
+    text-shadow: 5px 5px 10px #cedcee;
+}
+
+.email {
+    border: 2px solid grey;
+    margin-bottom: 5%;
+}
+
+.email:hover {
+    cursor: text;
+}
+
+/* Password */
+.forget{
+    color: #e21b70;
+    width: fit-content;
+    border-radius: 7px;
+}
+.forget:hover{
+    background-color: #faeaf2;
+}
+
+/* Landing Page */
+/* drop-profile */
+.drop-profile{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1249px) {
+    .city-main-21 {
+        display: none;
+    }
+}
+
+@media screen and ((min-width: 950px) and (max-width: 1017px)) {
+
+    /* Content */
+    .content-message {
+        width: 50%;
+        height: 50%;
+    }
+
+    .content-message-box1-2 {
+        padding: 5%;
+    }
+
+    /* content-2 */
+    .content-message-2 {
+        bottom: 17%;
+        height: fit-content;
+    }
+
+    /* Space */
+    .navbar-space-css {
+        width: 20%;
+    }
+
+    /* Space */
+    .space-logo {
+        width: 60%;
+    }
+
+    /* App Invitation */
+    .app-content-main {
+        flex-direction: column;
+        align-items: center;
+        height: 38rem;
+    }
+
+    /* Box-1 */
+    .app-box1 {
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+    /* Box-2 */
+    .app-box2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+}
+
+@media screen and ((min-width: 951px) and (max-width: 991px)) {
+
+    /* navbar */
+    .navbar-css {
+        height: 70px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+    /* Space */
+    .navbar-space-css {
+        display: none;
+    }
+
+    /* Space */
+    .space-logo {
+        width: 50%;
+    }
+
+    /* navbar */
+    .navbar-css {
+        height: 70px;
+    }
+
+    .navbar-css-main {
+        justify-content: space-around;
+    }
+
+    /* Signup/login logo */
+    .navbar-signup-icon-css>a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: scale(1.1);
+    }
+
+    /* log in button */
+    .btn-login-css {
+        display: none;
+    }
+
+    /* Sign up button */
+    .btn-signup-css {
+        display: none;
+    }
+
+    /* dropdown */
+    .btn-dropdown-css {
+        display: none;
+    }
+
+    /* drop-profile */
+    .drop-profile{
+        display: block;
+    }
+    .drop-profile>p{
+        display: none;
+    }
+
+    /* Bag Cart */
+    .bag-cart-css>i {
+        transform: scale(1.1);
+    }
+
+    /* Hero Section */
+
+    /* Box-1 */
+    .hero-box1 {
+        height: 350px;
+    }
+
+    /* Search */
+    .btn-signup-css.search {
+        display: block;
+    }
+
+    /* Box-2 | Hero Image */
+    .hero-box2-img {
+        height: 350px;
+        width: 650px;
+    }
+
+    /* Content */
+    .content-message {
+        width: 50%;
+        height: 50%;
+    }
+
+    /* content-2 */
+    .content-message-2 {
+        bottom: 17%;
+        height: fit-content;
+    }
+
+    .content-message-box1-2 {
+        padding: 5%;
+    }
+
+    /* App Invitation */
+
+    .app-content-main {
+        flex-direction: column;
+        align-items: center;
+        height: 38rem;
+    }
+
+    /* Box-1 */
+    .app-box1 {
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+
+    }
+
+    /* Box-2 */
+    .app-box2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+}
+
+@media screen and (max-width: 820px) {
+
+    /* Space */
+    .space-logo {
+        width: 40%;
+    }
+
+    /* Hero Section */
+
+    /* Box-1 */
+    .hero-box1>p {
+        font-size: 2rem;
+    }
+
+    .hero-box1 {
+        height: 220px;
+    }
+
+    .hero-box-1-around {
+        display: none;
+    }
+
+    /* Box-2 | Hero Image */
+    .hero-box2-img {
+        height: 220px;
+        width: 500px;
+    }
+
+    /* Hero Section-2 */
+    /* full size */
+    .hero-box-1-search.hero-2-search {
+        display: flex;
+    }
+
+    .hero-box-1-buttons>.btn {
+        display: block;
+    }
+
+    /* Content */
+    .content-message {
+        width: 50%;
+        height: 60%;
+    }
+
+    /* content-2 */
+    .content-message-2 {
+        bottom: 17%;
+        height: fit-content;
+    }
+
+    .content-message-box1-2 {
+        padding: 5%;
+    }
+
+}
+
+@media screen and (max-width: 765px) {
+
+    /* Space */
+    .space-logo {
+        width: 30%;
+    }
+
+    /* Hero Section */
+
+    /* Box-1 */
+    .hero-box1>p {
+        font-size: 1.7rem;
+    }
+
+    /* APP */
+    .app-box2>img {
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+    /* Space */
+    .space-logo {
+        display: none;
+    }
+
+    .logo {
+        width: 10%;
+    }
+
+    .logo-2 {
+        width: 10%;
+    }
+
+    /* Content */
+    .content {
+        width: 100%;
+        height: 120vh;
+    }
+
+    .content-message {
+        height: 50%;
+    }
+
+    /* content-2 */
+    .content-message-2 {
+        bottom: 17%;
+        height: fit-content;
+    }
+
+    .content-message-box1-2 {
+        padding: 5%;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+
+    /* Hero Section */
+
+    /* Box-1 */
+    .hero-box1>p {
+        font-size: 1.4rem;
+    }
+
+    .hero-box1 {
+        height: 180px;
+    }
+
+    /* Box-2 | Hero Image */
+    .hero-box2-img {
+        height: 180px;
+    }
+
+    /* footer  */
+    .footer {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 615px) {
+
+    .logo-2>.fb,
+    .logo-2>.insta {
+        border: none;
+        width: 5%;
+        transform: scale(0.9);
+    }
+
+    .logo {
+        transform: scale(0.7);
+    }
+
+    /* Content */
+    .content-message {
+        /* width: 50%; */
+        height: 55%;
+    }
+
+    /* content-2 */
+    .content-message-2 {
+        bottom: 17%;
+        height: fit-content;
+    }
+
+    .content-message-box1-2 {
+        padding: 5%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    /* main div of nav css */
+    .navbar-css-main {
+        padding: 0 1rem;
+    }
+
+    /* Hero Section */
+
+    /* Box-1 */
+    .hero-box1>p {
+        font-size: 1.2rem;
+    }
+
+    /* Box-2 | Hero Image */
+    .hero-box2-img {
+        width: 400px;
+    }
+
+    /* Content */
+    .content-message {
+        width: 60%;
+        height: 55%;
+    }
+
+    /* content-2 */
+    .content-message-2 {
+        bottom: 17%;
+        height: fit-content;
+    }
+
+    .content-message-box1-2 {
+        padding: 5%;
+    }
+
+    /* Form */
+    .form-pg>fieldset{
+        box-shadow: none;
+        text-align: center;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 405px) {
+
+    /* Content */
+    .content {
+        height: 130vh;
+    }
+
+    .content-message {
+        width: 70%;
+        height: 60%;
+    }
+
+    /* content-2 */
+    .content-message-2 {
+        bottom: 17%;
+        height: fit-content;
+    }
+
+    .content-message-box1-2 {
+        padding: 5%;
+    }
+
+    /* App */
+    .app-content-main {
+        height: 50rem;
+    }
+
+    /* Box1 | QR code + paragraph | Start*/
+    .app-box1 {
+        height: 80rem;
+    }
+
+    .app-box2 {
+        height: 30rem;
+    }
+
+    .app-download {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .app-download-btn>button {
+        margin-bottom: 3%;
+    }
+
+    .app-box2>img {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    /* main div of nav css */
+    .navbar-css-main {
+        padding: 0 0.2rem;
+    }
+
+    /* Signup/login logo */
+    .navbar-signup-icon-css>a {
+        font-size: 1rem;
+        height: 30px;
+        width: 30px;
+        margin: 0;
+    }
+
+    /* Bag Cart */
+    .bag-cart-css>i {
+        font-size: 1rem;
+        height: 30px;
+        width: 30px;
+        margin: 0;
+    }
+
+    /* main div of nav css */
+    .navbar-logo-css {
+        width: 60%;
+        /* transform: scale(0.9); */
+    }
+
+    /* logo text */
+    .navbar-css>div>a {
+        transform: scale(0.9);
+    }
+
+    /* Logo image */
+    .navbar-css>div>a>img {
+        transform: scale(0.9);
+    }
+
+    /* Hero Section */
+
+    /* Box-1 */
+    .hero-box1>p {
+        font-size: 1rem;
+    }
+
+    /* Box-2 | Hero Image */
+    .hero-box2-img {
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    /* Content */
+    .content {
+        height: 150vh;
+    }
+
+    .content-message {
+        width: 80%;
+        height: 55%;
+        font-size: 0.9rem;
+    }
+
+    /* content-2 */
+    .content-message-2 {
+        bottom: 17%;
+        height: fit-content;
+    }
+
+    .content-message-box1-2 {
+        padding: 5%;
+    }
+}
